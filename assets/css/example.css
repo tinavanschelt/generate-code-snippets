@@ -1,0 +1,43 @@
+/* CSS FOR EXAMPLE CONTENT
+------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-family: 'Arvo', sans-serif;
+  font-weight: 400;
+  margin: 1em 0;
+}
+
+body, p {
+  color: #333;
+  font-family: 'Arvo', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.example-container {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 2.5em;
+  padding-bottom: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2%;
+  width: 100%;
+}
+
+.grid.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+.grid .grid-item {
+  background-color: #7fb0b5;
+  border: 10px solid #9fd1d6;
+  margin: 1% 0;
+  padding: 10px;
+}

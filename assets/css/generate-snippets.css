@@ -1,0 +1,27 @@
+/* CODE SNIPPET + TOGGLE CSS */
+
+.pattern-snippet {
+  display: inline-block;
+  width: 100%;
+}
+
+.pattern-source {
+  display: none;
+}
+
+.pattern-source.no-toggle {
+  display: block;
+}
+
+.toggle-source {
+  background-color: #BBB;
+  color: #FFF;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.toggle-source:hover {
+  background-color: #AAA;
+}
