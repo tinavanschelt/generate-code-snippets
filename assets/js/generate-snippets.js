@@ -9,7 +9,7 @@ Array.from(snippets).forEach(function(snippet) {
     source = `<pre class="pattern-source no-toggle"><code class="language-markup line-numbers"><!--${code}--></code></pre>`
     newSnippet = `${example} ${source}` // throw it all together
   } else {
-    button = `<a href="#" class="toggle-source">View Source</a>` // toggle button
+    button = `<button href="#" class="toggle-source">View Source</button>` // toggle button
     source = `<pre class="pattern-source"><code class="language-markup line-numbers"><!--${code}--></code></pre>`
     newSnippet = `${example} ${button} ${source}` // throw it all together
   }

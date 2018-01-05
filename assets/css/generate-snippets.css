@@ -16,7 +16,9 @@
 .toggle-source {
   background-color: #BBB;
   color: #FFF;
+  cursor: pointer;
   display: inline-block;
+  font-size: 14px;
   margin: 1em 0;
   padding: 10px 20px;
   text-decoration: none;
